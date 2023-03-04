@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimoHerman Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" integrity="sha512-ymdTQyUk0UfVv71LHB/INBdluI7qg0WKX5Wy9DZNsYcliOVveSy42TBPcgbhm/RSsIHLj+3YlAfDL+/WgBMaIA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha512-0S+nbAYis87iX26mmj/+fWt1MmaKCv80H+Mbo+Ne7ES4I6rxswpfnC6PxmLiw33Ywj2ghbtTw0FkLbMWqh4F7Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css">
+<!--Update these with your own fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:500,900|Source+Sans+Pro:300,900&display=swap">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./image/img/logo-png.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle-navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link"> My Services</a></li>
+                <li class="nav__item"><a  href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>  Simo Herman</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Front End Developer</p>
+        <img src="./image/img/Copy.jpg" alt="a picture of Simo Herman smilling" class="intro__img">
+    </section>
+
+    <!--MyServices-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>HTML</h3>
+                <p>With HTML,i am able to build a Website consisting of multiple webpages all liked together.Creat,format and display effective and efficient websites.</p>
+            </div><!--/service-->
+
+            <div class="service">
+                <h3>CSS</h3>
+                <p>With this styling language,i am able to style any website,beatify it's layout or content,making it more attractive.</p>
+            </div><!--/service-->
+
+            <div class="service">
+                <h3>Javascript</h3>
+                <p>Advance features can be added to every website with the help of Javascript as i wil be able to program a website to do some particular task. </p>
+            </div><!--/service-->
+        </div><!--/services-->
+
+        <a href="#work" class="btn">My Work</a>
+    </section> 
+
+    <!----About me---->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Designer and developer based in Cameroon</p>
+
+        <div class="about-me__body">
+            <p>I am font-end developer. I can creat beautiful and attractive websites.I also make the websites to look more attractive by styling it.</p>
+            <p>  In addition, a equally make use of Javascript to make my websites more responsive and operational.Moreoevr,i make use of some Bootstrap property in my websites.
+            As an eternal learner,learning to code,develope and design webpages and 
+            websites have become one of favorite interest in life.</p>
+        </div>
+
+        <img src="./image/img/18.jpg" alt="Simo Just smilling" class="about-me__img">
+    </section>
+
+    <!----My Work---->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">A Selection of my range of Work</p>
+
+      <div class="portfolio">
+        <!----portfolio item 1749303---->
+        <a href="#" class="portfolio__item">
+            <img src="./image/img/analysis-strategy-study-information-business-planning.jpg" alt="" class="portfolio__img"> </a>
+
+            <!----portfolio item concept---->
+            <a href="#" class="portfolio__item"><img src="./image/img/binary-code-digits-technology-software-concept.jpg" alt="" class="portfolio__img"></a>
+
+            <!----portfolio item 3184454---->
+            <a href="#" class="portfolio__item"><img src="./image/img/pexels-fauxels-3184454.jpg" alt="" class="portfolio__img"></a>
+
+            <!----portfolio item 1229861---->
+            <a href="#" class="portfolio__item"><img src="./image/img/pexels-hasan-albari-1229861.jpg" alt="" class="portfolio__img"></a>
+
+            <!----portfolio item 1714202---->
+            <a href="#" class="portfolio__item"><img src="./image/img/pexels-josh-sorenson-1714202.jpg" alt="" class="portfolio__img"></a>
+
+            <!----portfolio item 325153---->
+            <a href="#" class="portfolio__item"><img src="./image/img/pexels-pixabay-459653.jpg" alt="" class="portfolio__img"></a>
+
+            <!----portfolio item 7974---->
+            <a href="#" class="portfolio__item"><img src="./image/img/pexels-life-of-pix-7974.jpg" alt="" class="portfolio__img"></a>
+
+            <!----portfolio item 39284---->
+            <a href="#" class="portfolio__item"><img src="./image/img/pexels-pixabay-39284.jpg" alt="" class="portfolio__img"></a>
+
+            <!----portfolio item 572056---->
+            <a href="#" class="portfolio__item"><img src="./image/img/pexels-serpstat-572056.jpg" alt="" class="portfolio__img"></a>
+      </div>
+    </section>
+
+    <!----footer---->
+    <footer class="footer">
+            <!--replace with your own email address-->
+      <a href="mailto:simoherman58@gmail.com" class="footer__link">simoherman58@gmail.com</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com"><i class="fab fa-github"></i></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
